@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class=""> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>Theme Elements | Launched Landing</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    
+    <link href="css/bootstrap-custom.min.css" rel="stylesheet">                
+    <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link href="./css/font-awesome.min.css" rel="stylesheet">    
+    <link href="./js/plugins/jquery.lightbox/themes/evolution-dark/jquery.lightbox.css" rel="stylesheet">     
+       
+    <link href="./css/launched.css" rel="stylesheet">
+    <link href="./css/launched-responsive.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<style>
+	#lightbox-demo {
+		text-align: center;
+	}
+
+	#lightbox-demo .btn {
+		margin: 0 .5em 1em;
+	}
+	</style>
+    
+</head>
+
+<body class="fixed-header">
+
+	<div class="navbar">
+      <div class="navbar-pad">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="./index.html"><img src="./img/logo.png" alt="Logo" /></a>
+          <div class="nav-collapse collapse">
+            
+          		<ul class="nav pull-left">
+				<li class=""><a href="./index.html">Home</a></li>
+				<li class="dropdown">
+		        	<a href="./about.html" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+		        		Pages
+		        		<span class="caret"></span>
+		        	</a>
+
+		        	<ul class="dropdown-menu">
+		        		<li>
+		        			<a href="./about.html">About Us</a>
+		        		</li>
+
+		        		<li>
+		        			<a href="./pricing.html">Plans & Pricing</a>
+		        		</li>
+
+		        		<li>
+		        			<a href="./features.html">Feature Tour</a>
+		        		</li>
+
+		        		<li>
+		        			<a href="./faq.html">FAQ</a>
+		        		</li>
+
+		        		<li>
+		        			<a href="./contact.html">Contact Us</a>
+		        		</li>
+
+		        		<li>
+		        			<a href="./signup.html">Create Account</a>
+		        		</li>
+
+		        		<li>
+		        			<a href="./signin.html">Login</a>
+		        		</li>
+		        	</ul>
+		        </li>
+				<li class="dropdown">
+		        	<a href="./portfolio.html" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+		        		Portfolio
+		        		<span class="caret"></span>
+		        	</a>
+
+		        	<ul class="dropdown-menu">
+
+		        		<li>
+		        			<a href="./portfolio-2.html">Portfolio 2 Column</a>
+		        		</li>
+
+		        		<li>
+		        			<a href="./portfolio-3.html">Portfolio 3 Column</a>
+		        		</li>
+
+		        		<li>
+		        			<a href="./portfolio-4.html">Portfolio 4 Column</a>
+		        		</li>
+
+		        		<li>
+		        			<a href="./portfolio-detail.html">Portfolio Detail</a>
+		        		</li>
+		        	</ul>
+		        </li>	
+				<li class="dropdown active">
+		        	<a href="./features.html" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+		        		Features
+		        		<span class="caret"></span>
+		        	</a>
+
+		        	<ul class="dropdown-menu">
+
+		        		<li class="dropdown-submenu">
+		                  <a tabindex="-1" href="#">Layouts</a>
+		                  <ul class="dropdown-menu">
+		                    <li><a tabindex="-1" href="./layout-sidetabs.html">Side Navigation</a></li>
+		                    <li><a tabindex="-1" href="./layout-grid.html">Grid Layout</a></li>
+		                    <li><a tabindex="-1" href="./layout-right.html">Sidebar Right</a></li>
+		                    <li><a tabindex="-1" href="./layout-left.html">Sidebar Left</a></li>
+		                  </ul>
+		                </li>
+
+		        		<li>
+		        			<a href="./bootstrap-elements.html">Bootstrap Elements</a>
+		        		</li>
+		        		
+		        		<li>
+		        			<a href="./theme-elements.html">Theme Elements</a>
+		        		</li>
+
+		        		<li>
+		        			<a href="./themes.html">Color Themes</a>
+		        		</li>
+
+
+		        		<li>
+		        			<a href="./icons.html">Icon Font</a>
+		        		</li>		        	</ul>
+		        </li>
+		        <li class="dropdown">
+		        	<a href="./blog.html" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+		        		Blog
+		        		<span class="caret"></span>
+		        	</a>
+
+		        	<ul class="dropdown-menu">
+		        		<li>
+		        			<a href="./blog.html">Blog Layout</a>
+		        		</li>
+
+		        		<li>
+		        			<a href="./blog-alternate.html">Blog Alternate</a>
+		        		</li>
+
+		        		<li>
+		        			<a href="./blog-single.html">Single Post</a>
+		        		</li>
+		        	</ul>
+		        </li>	
+			</ul>
+
+			
+		    <ul class="nav pull-right">	
+				<li class="divider-vertical"></li>	      
+		        <li><a href="./signup.html" class="action action-primary">Start Free Trial!</a></li>
+		        <li><a href="./signin.html" class="action">Sign In</a></li>
+		    </ul>
+
+
+
+          </div> <!-- /.nav-collapse -->
+        </div> <!-- /.container -->
+      </div> <!-- /.navbar-pad -->
+    </div> <!-- /.navbar -->
+
+
+
+
+
+<section id="masthead" class="masthead-sub">
+	
+	<div class="container">
+		
+		<h2>Theme Elements</h2>
+		
+	</div> <!-- /.container -->
+	
+</section> <!-- /#masthead -->        
+
+
+
+
+
+<section id="content">
+
+    <div class="container">
+
+
+
+
+    	<div class="row">
+
+    		<div class="section-title">
+    			<h2>Icon Lists</h2>
+    		</div> <!-- /.section-title -->
+
+
+    		<div class="span6">
+
+    			<h4>Circle Icon List</h4>
+
+    			<br />
+
+    			<ul class="mark-list">
+	    			<li class="circle">
+						<span class="mark"><i class="icon-cloud"></i></span>
+						<h4>Cloud Feature</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+					</li>
+					
+					<li class="circle">
+						<span class="mark"><i class="icon-star"></i></span>
+						<h4>Star Feature</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+					</li>
+
+	    		</ul>
+
+    		</div> <!-- /.span6 -->
+
+
+    		<div class="span6">
+
+    			<h4>Icon List</h4>
+
+    			<br />
+
+    			<ul class="mark-list">
+	    			<li class="">
+						<span class="mark"><i class="icon-chevron-right"></i></span>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+					</li>
+					
+					<li class="">
+						<span class="mark"><i class="icon-star"></i></span>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+					</li>
+					
+					<li class="">
+						<span class="mark"><i class="icon-magic"></i></span>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+					</li>
+					
+					<li class="">
+						<span class="mark"><i class="icon-fire"></i></span>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+					</li>
+
+	    		</ul>
+
+    		</div> <!-- /.span6 -->
+
+
+
+    	</div> <!-- /.row -->
+
+
+
+    	<div class="row">
+
+    		<div class="section-title">
+    			<h2>Social Icons</h2>
+    		</div> <!-- /.section-title -->
+
+    		<div class="span12">
+
+    			<ul class="social-icons" style="text-align: center">
+						<li class="social-youtube">
+							<a href="javascript:;" title="Youtube" class="ui-tooltip">
+								<i class="icon-youtube-play"></i>
+							</a>
+						</li>
+
+						<li class="social-linkedin">
+							<a href="javascript:;" title="LinkedIn" class="ui-tooltip">
+								<i class="icon-linkedin"></i>
+							</a>
+						</li>
+
+						<li class="social-instagram">
+							<a href="javascript:;" title="Instagram" class="ui-tooltip">
+								<i class="icon-instagram"></i>
+							</a>
+						</li>
+
+						<li class="social-foursquare">
+							<a href="javascript:;" title="Four Square" class="ui-tooltip">
+								<i class="icon-foursquare"></i>
+							</a>
+						</li>
+
+						<li class="social-dribbble">
+							<a href="javascript:;" title="Dribbble" class="ui-tooltip">
+								<i class="icon-dribbble"></i>
+							</a>
+						</li>
+
+						<li class="social-facebook">
+							<a href="javascript:;" title="Facebook" class="ui-tooltip">
+								<i class="icon-facebook"></i>
+							</a>
+						</li>
+
+						<li class="social-twitter">
+							<a href="javascript:;" title="Twitter" class="ui-tooltip">
+								<i class="icon-twitter"></i>
+							</a>
+						</li>
+
+						<li class="social-pinterest">
+							<a href="javascript:;" title="Pinterest" class="ui-tooltip">
+								<i class="icon-pinterest"></i>
+							</a>
+						</li>
+
+						<li class="social-google-plus">
+							<a href="javascript:;" title="Google+" class="ui-tooltip">
+								<i class="icon-google-plus"></i>
+							</a>
+						</li>
+
+						<li class="social-skype">
+							<a href="javascript:;" title="Skype" class="ui-tooltip">
+								<i class="icon-skype"></i>
+							</a>
+						</li>
+					</ul>
+
+					<br />
+
+    			<ul class="social-icons medium" style="text-align: center">
+						<li class="social-youtube">
+							<a href="javascript:;" title="Youtube" class="ui-tooltip">
+								<i class="icon-youtube-play"></i>
+							</a>
+						</li>
+
+						<li class="social-linkedin">
+							<a href="javascript:;" title="LinkedIn" class="ui-tooltip">
+								<i class="icon-linkedin"></i>
+							</a>
+						</li>
+
+						<li class="social-instagram">
+							<a href="javascript:;" title="Instagram" class="ui-tooltip">
+								<i class="icon-instagram"></i>
+							</a>
+						</li>
+
+						<li class="social-foursquare">
+							<a href="javascript:;" title="Four Square" class="ui-tooltip">
+								<i class="icon-foursquare"></i>
+							</a>
+						</li>
+
+						<li class="social-dribbble">
+							<a href="javascript:;" title="Dribbble" class="ui-tooltip">
+								<i class="icon-dribbble"></i>
+							</a>
+						</li>
+
+						<li class="social-facebook">
+							<a href="javascript:;" title="Facebook" class="ui-tooltip">
+								<i class="icon-facebook"></i>
+							</a>
+						</li>
+
+						<li class="social-twitter">
+							<a href="javascript:;" title="Twitter" class="ui-tooltip">
+								<i class="icon-twitter"></i>
+							</a>
+						</li>
+
+						<li class="social-pinterest">
+							<a href="javascript:;" title="Pinterest" class="ui-tooltip">
+								<i class="icon-pinterest"></i>
+							</a>
+						</li>
+
+						<li class="social-google-plus">
+							<a href="javascript:;" title="Google+" class="ui-tooltip">
+								<i class="icon-google-plus"></i>
+							</a>
+						</li>
+
+						<li class="social-skype">
+							<a href="javascript:;" title="Skype" class="ui-tooltip">
+								<i class="icon-skype"></i>
+							</a>
+						</li>
+					</ul>
+
+
+					<br />
+
+    			<ul class="social-icons large" style="text-align: center">
+					<li class="social-youtube">
+						<a href="javascript:;" title="Youtube" class="ui-tooltip">
+							<i class="icon-youtube-play"></i>
+						</a>
+					</li>
+
+					<li class="social-linkedin">
+						<a href="javascript:;" title="LinkedIn" class="ui-tooltip">
+							<i class="icon-linkedin"></i>
+						</a>
+					</li>
+
+					<li class="social-instagram">
+						<a href="javascript:;" title="Instagram" class="ui-tooltip">
+							<i class="icon-instagram"></i>
+						</a>
+					</li>
+
+					<li class="social-foursquare">
+						<a href="javascript:;" title="Four Square" class="ui-tooltip">
+							<i class="icon-foursquare"></i>
+						</a>
+					</li>
+
+					<li class="social-dribbble">
+						<a href="javascript:;" title="Dribbble" class="ui-tooltip">
+							<i class="icon-dribbble"></i>
+						</a>
+					</li>
+
+					<li class="social-facebook">
+						<a href="javascript:;" title="Facebook" class="ui-tooltip">
+							<i class="icon-facebook"></i>
+						</a>
+					</li>
+
+					<li class="social-twitter">
+						<a href="javascript:;" title="Twitter" class="ui-tooltip">
+							<i class="icon-twitter"></i>
+						</a>
+					</li>
+
+					<li class="social-pinterest">
+						<a href="javascript:;" title="Pinterest" class="ui-tooltip">
+							<i class="icon-pinterest"></i>
+						</a>
+					</li>
+
+					<li class="social-google-plus">
+						<a href="javascript:;" title="Google+" class="ui-tooltip">
+							<i class="icon-google-plus"></i>
+						</a>
+					</li>
+
+					<li class="social-skype">
+						<a href="javascript:;" title="Skype" class="ui-tooltip">
+							<i class="icon-skype"></i>
+						</a>
+					</li>
+				</ul>
+
+    		</div> <!-- /.span12 -->
+
+    	</div> <!-- /.row -->
+
+    	<br />
+
+
+    	<div class="row">
+
+    		<div class="section-title">
+    			<h2>Lightbox</h2>
+    		</div> <!-- /.section-title -->
+
+    		<div id="lightbox-demo" class="span12">
+
+			
+			
+					
+
+    			<a href="./img/portfolio/work-5-large.jpg" class="btn btn-large btn-primary ui-lightbox">Lightbox Image</a>
+    			<a href="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=+paris+eiffel&amp;ie=UTF8&amp;hq=eiffel&amp;hnear=Paris,+Ile-de-France,+France&amp;ll=48.855708,2.300434&amp;spn=0.013243,0.042272&amp;z=15&amp;lightbox[width]=610&amp;lightbox[height]=360" class="btn btn-large btn-primary  ui-lightbox">Lightbox Map</a>
+    			<a href="http://www.youtube.com/watch?v=TsUD1za9TA4" class="btn btn-large btn-primary  ui-lightbox">Lightbox Video</a>
+
+    		</div>
+
+    	</div> <!-- /.row -->
+
+
+
+
+    	<br />
+
+
+    	<div class="row">
+
+    		<div class="section-title">
+    			<h2>Client Logos</h2>
+    		</div> <!-- /.section-title -->
+				
+				<div class="span12">
+					
+	
+		   			<div class="clients-list">
+
+		   				<img src="./img/clients/logo-client-1.jpg" class="client-logo" alt="Client Logo">
+
+		   				<img src="./img/clients/logo-client-2.jpg" class="client-logo" alt="Client Logo">
+
+		   				<img src="./img/clients/logo-client-3.jpg" class="client-logo" alt="Client Logo">
+
+		   				<img src="./img/clients/logo-client-5.jpg" class="client-logo" alt="Client Logo">
+
+		   			</div> <!-- /.clients -->
+		   			
+	   			</div> <!-- ./span12 -->
+	   			
+   			</div> <!-- /.row -->
+
+
+   			<br />
+
+   			<br />
+
+   			<div class="row">
+
+   				<div class="section-title">
+	    			<h2>Testimonials</h2>
+	    		</div> <!-- /.section-title -->
+
+   				<div class="span6">
+
+   					<h4>Testimonial List</h4>
+
+   					<br />
+
+   					<ul class="testimonial-list filled">
+						<li>
+							<blockquote>
+								"I would like to extend a special thank you for your excellent support. Is has been a great experience. I love this template and more so because you provided excellent support!"
+							</blockquote>
+							
+							<img src="./img/profile.jpg" alt=""> Rod Howard, <a href="http://jumpstartui.com" target="_blank">Jumpstart UI</a>
+						</li>
+						
+						<li>
+							<blockquote>
+								"I would like to extend a special thank you for your excellent support. Is has been a great experience. I love this template and more so because you provided excellent support!"
+							</blockquote>
+							
+							<img src="./img/profile.jpg" alt=""> Rod Howard, <a href="http://jumpstartui.com" target="_blank">Jumpstart UI</a>
+						</li>
+					</ul>
+
+
+   				</div> <!-- /.span6 -->
+
+
+   				<div class="span6">
+
+   					<h4>Testimonial List</h4>
+
+   					<br />
+
+   					<ul class="testimonial-list">
+						<li>
+							<blockquote>
+								"I would like to extend a special thank you for your excellent support. Is has been a great experience. I love this template and more so because you provided excellent support!"
+							</blockquote>
+							
+							<img src="./img/profile.jpg" alt=""> Rod Howard, <a href="http://jumpstartui.com" target="_blank">Jumpstart UI</a>
+						</li>
+						
+						<li>
+							<blockquote>
+								"I would like to extend a special thank you for your excellent support. Is has been a great experience. I love this template and more so because you provided excellent support!"
+							</blockquote>
+							
+							<img src="./img/profile.jpg" alt=""> Rod Howard, <a href="http://jumpstartui.com" target="_blank">Jumpstart UI</a>
+						</li>
+					</ul>
+
+
+   				</div> <!-- /.span6 -->
+
+   			</div> <!-- /.row -->
+
+    	
+    	
+        	
+    </div> <!-- /container -->
+            
+</section> <!-- /#content -->
+
+
+
+
+
+<section id="extra">
+	
+	<div class="container">
+		
+		<div class="row">
+			
+			<div class="span3">
+			  	
+				<img src="./img/logo-extra.png" alt="Logo" />	
+				
+				<br />
+				<br />
+				<br />
+				
+				<ul class="mark-list small">
+					<li>
+						<span class="mark">
+							<i class="icon-map-marker"></i>
+						</span>
+
+						123 Street Name, Suite # <br>
+						City, State 12345, Country
+					</li>
+
+					<li>
+						<span class="mark">
+							<i class="icon-phone"></i>
+						</span>
+
+						Phone: (123) 123-4567
+					</li>
+
+					<li>
+						<span class="mark">
+							<i class="icon-money"></i>
+						</span>
+
+						Toll Free: (800) 123-45677
+					</li>
+
+				</ul>
+				
+			</div> <!-- /.span3 -->
+			  
+			<div class="span3">		
+			
+				<h4>Quick Links</h4>
+
+				<ul class="mark-list small">
+
+					<li>
+						<span class="mark">
+							<i class="icon-chevron-right"></i>
+						</span>
+
+						<a href="./features.html">Features</a>
+					</li>
+
+					<li>
+						<span class="mark">
+							<i class="icon-chevron-right"></i>
+						</span>
+
+						<a href="./pricing.html">Plans & Pricing</a>
+					</li>
+
+					<li>
+						<span class="mark">
+							<i class="icon-chevron-right"></i>
+						</span>
+
+						<a href="./faq.html">Faq</a>
+					</li>
+
+					<li>
+						<span class="mark">
+							<i class="icon-chevron-right"></i>
+						</span>
+
+						<a href="./about.html">About</a>
+					</li>
+
+					<li>
+						<span class="mark">
+							<i class="icon-chevron-right"></i>
+						</span>
+
+						<a href="./contact.html">Contact</a>
+					</li>
+
+				</ul>
+				
+				<ul class="list-icon">
+					
+				</ul>	
+				
+			</div> <!-- /.span3 -->
+			  
+			<div class="span3">
+			
+				<h4>We're Social</h4>
+					
+				<ul class="mark-list small">
+					<li>
+						<span class="mark">
+							<i class="icon-facebook-sign"></i>
+						</span> 
+
+						<a href="#">Facebook</a>
+					</li>
+
+					<li>
+						<span class="mark">
+							<i class="icon-twitter"></i>
+						</span>
+
+						<a href="#">Twitter</a>
+					</li>
+
+					<li>
+						<span class="mark">
+							<i class="icon-google-plus"></i>
+						</span> 
+
+						<a href="#">Google +</a>
+					</li>
+				</ul>		
+				  
+			</div> <!-- /.span3 -->
+				
+			<div class="span3">
+					
+				<h4>Subscribe</h4>
+				<p>Subscribe to our newsletter and stay up to date with the latest news</p>			
+				<form id="extra-newsletter-form">
+					<input type="text" placeholder="Your Email" name="subscribe">
+					<button class="btn">Subscribe</button>
+				</form>
+				
+			</div> <!-- /.span3 -->	  			
+		
+		</div> <!-- /.row -->
+		
+	</div> <!-- /.container -->
+	
+</section> <!-- /#extra -->
+
+
+
+
+
+<footer>
+	
+	<div class="container">
+		
+		<ul class="pull-left">
+			<li>&copy; 2012-13 <a href="javascript:;">Jumpstart UI</a></li>
+    	</ul>
+    		
+		<ul class="pull-right">
+			
+			<li>Theme by <a href="http://jumpstartui.com" target="_blank"> &nbsp;Jumpstart UI</a></li>
+		</ul>
+    		
+	</div> <!-- /.container -->
+	
+</footer>
+
+
+<script src="./js/vendor/jquery-1.9.1.min.js"></script>
+
+<script src="js/vendor/bootstrap.min.js"></script>
+
+<script src="./js/plugins/bootstrap-dropdown/twitter-bootstrap-hover-dropdown.min.js"></script>
+<script src="js/plugins/jquery.lightbox/jquery.lightbox.min.js"></script>
+
+
+<script src="js/main.js"></script>
+
+</body>
+
+</html>
