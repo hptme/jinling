@@ -1,5 +1,13 @@
 Jinglin::Application.routes.draw do
   root 'statics#index'
+  #get 'about' => 'abouts#index'
+  #resources :abouts, only: [:index]
+  get '/about' , to: "others#about"
+  get '/ex1' , to: "others#ex1"
+  get '/ex2' , to: "others#ex2"
+  get '/ex3' , to: "others#ex3"
+  get '/ex4' , to: "others#ex4"
+  get '/contact' , to: "others#contact"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
