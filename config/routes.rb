@@ -8,6 +8,10 @@ Jinglin::Application.routes.draw do
   get '/ex3' , to: "others#ex3"
   get '/ex4' , to: "others#ex4"
   get '/contact' , to: "others#contact"
+  get '/wood' , to: "others#wood"
+  get '/concrete' , to: "others#concrete"
+  get '/stone' , to: "others#stone"
+  get '/jinlu' , to: "others#jinlu"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
