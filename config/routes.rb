@@ -3,15 +3,14 @@ Jinglin::Application.routes.draw do
   #get 'about' => 'abouts#index'
   #resources :abouts, only: [:index]
   get '/about' , to: "others#about"
-  get '/ex1' , to: "others#ex1"
-  get '/ex2' , to: "others#ex2"
-  get '/ex3' , to: "others#ex3"
-  get '/ex4' , to: "others#ex4"
-  get '/contact' , to: "others#contact"
+  get '/products' , to: "others#products"
+  
+  
   get '/wood' , to: "others#wood"
   get '/concrete' , to: "others#concrete"
   get '/stone' , to: "others#stone"
   get '/jinlu' , to: "others#jinlu"
+  resources :contacts, only: [:new, :create]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

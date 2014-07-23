@@ -1,0 +1,137 @@
+
+
+
+	
+
+
+
+
+<section id="masthead" class="masthead-sub">
+	
+	<div class="container">
+		
+		<h2>不要遲疑，立即聯絡我們！</h2>
+		
+	</div> <!-- /.container -->
+	
+</section> <!-- /#masthead -->        
+
+
+
+
+
+<section id="content">
+
+
+	
+
+    <div class="layout layout-MS">
+
+        		
+    		
+			
+			<div class="main">
+				
+					
+					<h4>直接撥打電話或者留言給我們，我們會儘快回覆您的訊息</h4>
+					
+					<hr />
+					
+					<h4></h4>
+					
+					<br />
+					 <%= form_tag("/contacts") do  %>
+    
+            <div class="control-group">
+              <%= text_field_tag 'name', "", placeholder: '請輸入您的大名'  %>
+            </div>
+            <div class="control-group">
+              <%= text_field_tag 'email', "", placeholder: '請輸入電子信箱' %>
+            </div>
+              <div class="control-group">
+           
+ 
+            <%= text_area_tag 'message', "", placeholder: '請輸入訊息謝謝', :size=>"20x6" , class: 'input-xxlarge'%>
+          </div>
+
+            <br>
+            <%= submit_tag("確定送出", :class => "btn btn-primary btn-large") %>
+            <%end%>
+					
+					
+
+				
+			</div> <!-- /.main -->
+			
+			<div class="sidebar">
+				
+				<div class="well">
+					
+					
+					<h4>地址</h4>
+
+					<ul class="mark-list small">
+
+						<li>
+							<span class="mark">
+								<i class="icon-map-marker"></i>
+							</span>
+
+							嘉義市北社尾672-30號# <br>
+							 
+						</li>
+
+					</ul>
+
+					<hr />
+
+					<h4>聯絡方式</h4>
+
+
+					<ul class="mark-list small">
+						<li>
+							<span class="mark">
+								<i class="icon-phone"></i>
+							</span>
+
+							電話: (05) 237-9356
+						</li>
+
+						<li>
+							<span class="mark">
+								<i class="icon-print"></i>
+							</span>
+
+							傳真電話: (05) 237-2823
+						</li>
+
+						<li>
+							<span class="mark">
+								<i class="icon-money"></i>
+							</span>
+
+							電子郵件: 
+						</li>
+
+					</ul>
+
+					
+					
+				</div> <!-- /.well -->					
+				
+			</div> <!-- /.sidebar -->
+		
+        	
+    </div> <!-- /.layout-MS -->
+            
+</section> <!-- /#content -->
+
+
+
+
+
+
+
+
+
+
