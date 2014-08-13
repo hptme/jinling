@@ -31,8 +31,8 @@ Jinglin::Application.configure do
     address:              'smtp.gmail.com',
     port:                 587,
     domain:               'gmail.com',
-    user_name:            'hpttme@gmail.com',
-    password:             'bk4n3xk7x87',
+    user_name:            'jinlinchiayi@gmail.com',
+    password:             'g3bjo4dk4',
     authentication:       'plain',
     enable_starttls_auto: true  }
 

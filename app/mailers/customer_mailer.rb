@@ -6,7 +6,7 @@ class CustomerMailer < ActionMailer::Base
     @name = name
     @email  = email
     @message = message
-    mail(to: "hpttme@gmail.com", subject: "京麟 - Hello, #{@name}")
+    mail(to: "jinlinchiayi@gmail.com", subject: "京麟 - Hello, #{@name}")
   end
 
 end
