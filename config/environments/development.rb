@@ -31,10 +31,10 @@ Jinglin::Application.configure do
     address:              'smtp.gmail.com',
     port:                 587,
     domain:               'gmail.com',
-    user_name:            'jinlinchiayi@gmail.com',
+    user_name:            'jinlinchiayi',
     password:             'g3bjo4dk4',
     authentication:       'plain',
     enable_starttls_auto: true  }
 
-  config.action_mailer.default_url_options = { host: 'localhost:3000' } 
+  #config.action_mailer.default_url_options = { host: 'localhost:3000' } 
 end
