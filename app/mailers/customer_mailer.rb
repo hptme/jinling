@@ -1,8 +1,9 @@
 class CustomerMailer < ActionMailer::Base
-  default from: "hpttme@gmail.com"
+  default from: "jinlinchiayi@gmail.com"
 
 
   def welcome_email(name, email, message)
+    binding.pry
     @name = name
     @email  = email
     @message = message
