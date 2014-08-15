@@ -3,7 +3,7 @@ class CustomerMailer < ActionMailer::Base
 
 
   def welcome_email(name, email, message)
-    binding.pry
+    
     @name = name
     @email  = email
     @message = message
